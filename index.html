@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="script" href="Eventos.js" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio Pessoal LuizDomingo4318015</title>
+  </head>
+  <body>
+    <!---Cabeçalho-Main-->
+
+    <div class="background">
+      <nav>
+        <h2 class="logo">RU<span> 4318015</span></h2>
+        <!--Logo-->
+        <ul id="inicio" class="cabeçalho-link">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#main-sobre">Sobre mim</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#Contato">Contato</a></li>
+          <li><a href="#video">Video Projetos</a></li>
+        </ul>
+        <!--cabeçalho-link-->
+        <a href="https://github.com/luizdomingo" class="btn">GitHub</a>
+      </nav>
+
+      <img class="img-had" src="maino1.jpg" />
+      <div class="Main">
+        <h4>Ola, meu nome é</h4>
+        <h1>Luiz <span>Domingo Da Silva</span></h1>
+        <h3>Estou cursando ADS</h3>
+        <div class="Container-btn">
+          <form>
+            <input
+              type="email"
+              nome="email"
+              id="mail"
+              placeholder="Envie seu Email"
+            />
+            <input type="submit" name="submit" value="Enviar" />
+          </form>
+        </div>
+        <!--Container-btn-->
+      </div>
+      <!--Main-->
+    </div>
+    <!--background-->
+
+    <!--Começo-da-seção-sobre-->
+    <section class="background-color-Sobre">
+      <div id="main-sobre" class="main-sobre">
+        <img class="imgsobre" src="luiz.jpg" />
+        <div class="Text-sobre">
+          <h2>Sobre-Mim</h2>
+          <h5>Estudante<span> & Apaixonado por tecnologia</span></h5>
+          <p>
+            Sou Estudante em ADS, porém ja tenho uma boa experiência com
+            tecnologia. Comecei nesse mundo maluco que é o mundo da tecnologia
+            em 2014, quando conheci uma ferramenta que esta presente em milhares
+            de computadores do mundo. Se você pensou que seria a internet,
+            errou, estou falando do Excel. Quando tive contato pela primeira vez
+            com essa ferramenta fiquei maravilhado com tanta das coisas que
+            poderia ser feita. Dai conheci uma ferramenta a mais dentro do
+            Excel, se você pensou que foi tabela dinâmica errou, pois é, eu
+            estou falando do velho é ultil, VBA -> Visual Basic For Application.
+            Dai então criei uma curiosidade sobre programar, dai então não parei
+            mais. Hoje além da Faculdade eu estudo por fora, as tecnologias
+            .NET, dando ênfase ao C#.
+          </p>
+          <a href="#inicio">Inicio</a>
+          <!--Button-->
+        </div>
+        <!--Text-sobre-->
+      </div>
+      <!--main-sobre-->
+    </section>
+    <!--background-color-Sobre-->
+
+    <!--Começo-da-seção-Minhas Formação-->
+
+    <div id="formacao" class="Container-serviços">
+      <div class="title">
+        <h2>Cursos Realizados</h2>
+      </div>
+      <!--title-->
+
+      <div class="Caixa">
+        <div class="Card">
+          <i class="fa-brands fa-python"></i>
+          <h5>Python</h5>
+          <div class="Paragrafo-button">
+            <p>Quando se fala em analises de dados lembramos logo do python.</p>
+            <a href="#inicio">Inicio</a>
+          </div>
+          <!--Paragrafo-button-->
+        </div>
+        <!--Card-->
+
+        <div class="Card">
+          <i class="fab fa-java"></i>
+          <h5>Java</h5>
+          <div class="Paragrafo-button">
+            <p>Aqui vamos falar um pouco sobre Java</p>
+          </div>
+          <!--Paragrafo-button-->
+        </div>
+        <!--Card-->
+
+        <div class="Card">
+          <i class="fa-brands fa-microsoft"></i>
+          <h5>.NET C#</h5>
+          <div class="Paragrafo-button">
+            <p>Iremos bater um papo legal sobre o C#</p>
+          </div>
+        </div>
+        <!--Card-->
+      </div>
+      <!--Caixa-->
+    </div>
+
+    <!--Conatiner-Contatos-->
+    <!--Contatos-->
+    <div id="Contato" class="me-contate">
+      <p>Podemos bater um papo bem legal sobre tecnologia.</p>
+      <div class="ZAP">
+        <p href="">
+          <i class="fa-brands fa-whatsapp"></i> Meu ZAP -> (84) 9 9930-7493
+        </p>
+      </div>
+    </div>
+
+    <!--Criando O frame para colocar um video-->
+    <div class="titulo-video" id="video">
+      <h2 class="titulo">Apresentando Alguns Projetos a qual já desenvolvi</h2>
+      <video width="620" height="340" controls class="meu-video" quality="high" contenteditable="false">
+        <source src="video/05.mp4.mp4" type="video/mp4" />
+      </video>
+    </div>
+     
+    <!---Criando um carrocel de videos
+    <h2 class="titulo">Alguns Projetos a qual já desenvolvi</h2>
+    <div class="carrousel-main" id="video">
+      <div class="carrousel-slide">
+        <video src="video/01.mp4.mp4" controls></video>
+        <video src="video/02.mp4.mp4" controls></video>
+        <video src="video/03.mp4.mp4" controls></video>
+        <video src="video/04.mp4.mp4" controls></video>
+        <video src="video/05.mp4.mp4" controls></video>
+        <video src="video/06.mp4.mp4" controls></video>
+        <video src="video/07.mp4.mp4" controls></video>
+        <video src="video/08.mp4.mp4" controls></video>
+        <video src="video/09.mp4.mp4" controls></video>
+        <video src="video/10.mp4.mp4" controls></video>
+      </div>
+    </div>
+    -->
+
+    <!--Rodapé--->
+    <footer>
+      <h6>A cada dia um degrau de uma escada é alcançado.</h6>
+      <p>
+        O aprendizado é constante, nunca estaremos por dentro de tudo mas
+        podemos buscar de tudo um pouco dentro dos nossos objetivos.
+      </p>
+      <div class="Redes-sociais">
+        <a href="#"><i class="fab fa-java"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <!--Redes-sociais-->
+      <p class="end">CopyRight By Luiz Domingo Da Silva</p>
+    </footer>
+  </body>
+</html>
